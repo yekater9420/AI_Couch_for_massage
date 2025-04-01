@@ -1,0 +1,26 @@
+# 大模型API配置文件
+
+DeepSeek:
+  DeepSeek-R1:
+    # 输入价格：2 RMB/M tokens
+    # 输出价格: 8 RMB/M tokens
+    base_url: "https://maas-api.lanyun.net/v1"
+    api_key: "sk-ewgr2hcqwaaxj7kmn2vn7h5zr7rkjebb5xd4blotleegyig7"
+    model: "/maas/deepseek-ai/DeepSeek-R1"
+
+  DeepSeek-V3:
+    # 输入价格：1 RMB/M tokens
+    # 输出价格: 4 RMB/M tokens
+    base_url: "https://maas-api.lanyun.net/v1"
+    api_key: "sk-ewgr2hcqwaaxj7kmn2vn7h5zr7rkjebb5xd4blotleegyig7"
+    model: "/maas/deepseek-ai/DeepSeek-V3"
+
+  DeepSeek-R1-Distill-Liama-70B:
+    # 输入价格：0 RMB/M tokens
+    # 输出价格: 0 RMB/M tokens
+    base_url: "https://maas-api.lanyun.net/v1"
+    api_key: "sk-ewgr2hcqwaaxj7kmn2vn7h5zr7rkjebb5xd4blotleegyig7"
+    model: "/maas/deepseek-r1:70b"
+
+
+DouBao:

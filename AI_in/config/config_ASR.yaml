@@ -1,0 +1,16 @@
+# ali-ASR_API
+
+ALI:
+  BeiJing:
+    ASR_URL : "wss://nls-gateway-cn-beijing.aliyuncs.com/ws/v1"
+    APPKEY : "WqwOrQpgdALOI4L3"
+
+  ShangHai:
+    ASR_URL : "wss://nls-gateway-cn-shanghai.aliyuncs.com/ws/v1"
+    APPKEY : "WqwOrQpgdALOI4L3"
+
+  ShenZhen:
+    ASR_URL : "wss://nls-gateway-cn-shenzhen.aliyuncs.com/ws/v1"
+    APPKEY : "WqwOrQpgdALOI4L3"
+
+
