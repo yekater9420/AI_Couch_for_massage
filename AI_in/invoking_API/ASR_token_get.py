@@ -65,6 +65,7 @@ class AccessToken:
         return None, None
 
 def ASR_token_get():
+   time.sleep(0.5)
    access_key_id = os.getenv('ALIBABA_CLOUD_ACCESS_KEY_ID')  # 从环境变量读取 AccessKey ID
    access_key_secret = os.getenv('ALIBABA_CLOUD_ACCESS_KEY_SECRET')  # 从环境变量读取 AccessKey Secret
    token, expire_time = AccessToken.create_token(access_key_id, access_key_secret)
